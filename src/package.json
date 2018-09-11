@@ -1,0 +1,22 @@
+{
+  "main": "electron-main.js",
+  "license": "MIT",
+  "description": "skycoin lite wallet",
+  "private": true,
+  "dependencies": {
+    "@ledgerhq/hw-transport-node-hid": "file:../packages/hw-transport-node-hid",
+    "@ledgerhq/hw-transport": "file:../packages/hw-transport",
+    "@ledgerhq/hw-app-sky": "file:../packages/hw-app-sky",
+    "babel-runtime": "6.26.0",
+    "lodash": "^4.17.10",
+    "node-hid": "^0.7.2",
+    "usb": "^1.3.2",
+    "create-hash": "^1.1.3",
+    "events": "^2.0.0",
+    "electron-context-menu": "^0.9.1",
+    "electron-debug": "^1.5.0"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.8.2"
+  }
+}
