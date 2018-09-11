@@ -23,6 +23,8 @@ whose name depends on the operating system, but part of its name contains `unpac
 When you run the application, it displays a series of error dialogs with information obtained from the hardware wallet. The last
 dialog should have the title `Address response` and contain the first address obtained from the hardware wallet.
 
+To run the tests again, it is necessary to close the app and run it again.
+
 ## Update the "ledger js" library
 
 The repository includes a compiled version of the relevant elements of the ledger js library. If you want to use a different version,
